@@ -19,9 +19,11 @@ const AboutUs = () => (
                     className="spoon__img"
                 />
                 <p className="p__opensans">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quis pharetra adipiscing ultrices vulputate posuere
-                    tristique. In sed odio nec aliquet eu proin mauris et.
+                    At Eat Fusion, we believe food is more than just fuel — it’s
+                    an experience. Our chefs blend global flavors with local
+                    ingredients to create dishes that are bold, innovative, and
+                    unforgettable. Whether you're here for a quick bite or a
+                    celebration, we serve every plate with passion and purpose.
                 </p>
                 <button type="button" className="custom__button">
                     Know More
@@ -40,9 +42,11 @@ const AboutUs = () => (
                     className="spoon__img"
                 />
                 <p className="p__opensans">
-                    Adipiscing tempus ullamcorper lobortis odio tellus arcu
-                    volutpat. Risus placerat morbi volutpat habitasse interdum
-                    mi aliquam In sed odio nec aliquet.
+                    Founded with the vision of uniting culinary traditions from
+                    around the world, Eat Fusion began as a small bistro with a
+                    big dream. Over the years, we’ve grown into a destination
+                    for food lovers seeking unique flavors, impeccable service,
+                    and a warm, welcoming ambiance.
                 </p>
                 <button type="button" className="custom__button">
                     Know More

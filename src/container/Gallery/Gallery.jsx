@@ -31,9 +31,10 @@ const Gallery = () => {
                     className="p__opensans"
                     style={{ color: "#AAAAAA", marginTop: "2rem" }}
                 >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Volutpat mattis ipsum turpis elit elit scelerisque egestas
-                    mu.
+                    A glimpse into our culinary artistry—crafted moments, plated
+                    perfection, and flavors worth sharing. Follow us on
+                    Instagram to feast with your eyes and stay inspired by our
+                    latest creations.
                 </p>
                 <button type="button" className="custom__button">
                     View More

@@ -1,82 +1,86 @@
-import images from './images';
+import images from "./images";
 
 const wines = [
-  {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
+    {
+        title: "Sula Rasa Shiraz",
+        price: "₹2,500",
+        tags: "Nashik | Bottle",
+    },
+    {
+        title: "Grover Zampa La Réserve",
+        price: "₹2,200",
+        tags: "Bangalore | Bottle",
+    },
+    {
+        title: "Fratelli Cabernet Sauvignon",
+        price: "₹2,000",
+        tags: "Solapur | 750 ml",
+    },
+    {
+        title: "York Arros Red Blend",
+        price: "₹1,800",
+        tags: "Nashik | 750 ml",
+    },
+    {
+        title: "Reveilo Chardonnay",
+        price: "₹1,600",
+        tags: "Nashik | 750 ml",
+    },
 ];
 
 const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
+    {
+        title: "Desi Mojito",
+        price: "₹500",
+        tags: "Mint | Lime | White Rum | Soda | Chaat Masala twist",
+    },
+    {
+        title: "Masala Old Fashioned",
+        price: "₹650",
+        tags: "Bourbon | Jaggery Syrup | Angostura | Indian spices",
+    },
+    {
+        title: "Kokum Fizz",
+        price: "₹450",
+        tags: "Kokum | Gin | Tonic | Lemon zest",
+    },
+    {
+        title: "Aam Panna Margarita",
+        price: "₹600",
+        tags: "Raw Mango | Tequila | Black salt rim",
+    },
+    {
+        title: "Filter Coffee Martini",
+        price: "₹700",
+        tags: "Cold brew decoction | Vodka | Coffee liqueur",
+    },
 ];
 
 const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
+    {
+        imgUrl: images.award02,
+        title: "Times Food Award",
+        subtitle:
+            "Recognized for excellence in regional Indian cuisine with modern flair.",
+    },
+    {
+        imgUrl: images.award01,
+        title: "Best Indian Fusion Bar",
+        subtitle:
+            "Awarded for blending traditional ingredients with innovative mixology.",
+    },
+    {
+        imgUrl: images.award05,
+        title: "Hospitality Icon Award",
+        subtitle:
+            "For outstanding service and unforgettable dining experiences in India.",
+    },
+    {
+        imgUrl: images.award03,
+        title: "Chef of the Year",
+        subtitle:
+            "Honoring culinary mastery rooted in Indian heritage and bold creativity.",
+    },
 ];
 
 export default { wines, cocktails, awards };

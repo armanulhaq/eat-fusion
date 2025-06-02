@@ -12,14 +12,20 @@ const Footer = () => (
             <div className="app__footer-links_contact">
                 <h1 className="app__footer-headtext">Contact Us</h1>
                 <p className="p__opensans">
-                    9 W 53rd St, New York, NY 10019, USA
+                    14, Indiranagar 100 Feet Road, HAL 2nd Stage, Bangalore,
+                    Karnataka 560038, India
                 </p>
-                <p className="p__opensans">+1 212-344-1230</p>
-                <p className="p__opensans">+1 212-555-1230</p>
+                <p className="p__opensans">+91 80-2345-6789</p>
+                <p className="p__opensans">+91 80-9876-5432</p>
             </div>
 
             <div className="app__footer-links_logo">
-                <img src={images.gericht} alt="footer_logo" />
+                <div
+                    className="app__footer-headtext"
+                    style={{ marginBottom: "1rem" }}
+                >
+                    Eat Fusion
+                </div>
                 <p className="p__opensans">
                     &quot;The best way to find yourself is to lose yourself in
                     the service of others.&quot;
@@ -46,7 +52,7 @@ const Footer = () => (
         </div>
 
         <div className="footer__copyright">
-            <p className="p__opensans">2025 Gericht. All Rights reserved.</p>
+            <p className="p__opensans">2025 Eat Fusion. All Rights reserved.</p>
         </div>
     </div>
 );

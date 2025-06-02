@@ -13,7 +13,8 @@ const FindUs = () => (
             </h1>
             <div className="app__wrapper-content">
                 <p className="p__opensans">
-                    Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G
+                    14, Indiranagar 100 Feet Road, HAL 2nd Stage, Bangalore,
+                    Karnataka 560038
                 </p>
                 <p
                     className="p__cormorant"
@@ -21,8 +22,8 @@ const FindUs = () => (
                 >
                     Opening Hours
                 </p>
-                <p className="p__opensans">Mon - Fri: 10:00 am - 02:00 am</p>
-                <p className="p__opensans">Sat - Sun: 10:00 am - 03:00 am</p>
+                <p className="p__opensans">Mon - Fri: 10:00 am - 11:00 pm</p>
+                <p className="p__opensans">Sat - Sun: 12:00 pm - 10:00 pm</p>
             </div>
             <button
                 type="button"

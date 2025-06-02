@@ -8,9 +8,9 @@ const Header = () => (
             <SubHeading title="Chase the new flavour" />
             <h1 className="app__header-h1">The Key To Fine Dining</h1>
             <p className="p__opensans" style={{ margin: "2rem 0" }}>
-                Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-                volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-                aliquam amet tellus{" "}
+                Discover a symphony of bold spices and fresh ingredients, where
+                tradition meets innovation on every plate. At Eat Fusion, we
+                bring global tastes to your table with a modern twist.
             </p>
             <button type="button" className="custom__button">
                 Explore Menu
